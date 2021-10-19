@@ -11,7 +11,7 @@ class ErrorText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return Text(errorText + errorText,
+    return Text(errorText,
         style: theme.textTheme.subtitle1!.copyWith(color: theme.errorColor));
   }
 }
